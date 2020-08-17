@@ -1,45 +1,171 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>我的第一篇博客</title>
-      <link href="/2020/08/15/my-first-blog/"/>
-      <url>/2020/08/15/my-first-blog/</url>
-      
-        <content type="html"><![CDATA[<p>欢迎来到我的博客做客！！</p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>我的第一篇博客</title>
+    <url>/2020/08/15/my-first-blog/</url>
+    <content><![CDATA[<p>欢迎来到我的博客做客！！</p>
+<a id="more"></a>
+
+<h1 id="第一个一级标题"><a href="#第一个一级标题" class="headerlink" title="第一个一级标题"></a>第一个一级标题</h1><blockquote>
+<p>这是引用的内容</p>
+<blockquote>
+<p>这是引用的内容</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>这是引用的内容</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<p><a href="http://jianshu.com/">简书</a><br>我展示的是一级标题<br>====================<br>我展示的是二级标题</p>
+<hr>
+<p>runoob.com<br>google.com</p>
+<p><em>斜体</em><br><em>斜体文本</em><br><strong>粗体</strong><br><strong><em>粗斜体</em></strong></p>
+<p>分割线</p>
+<hr>
+<h1 id="第二个一级标题"><a href="#第二个一级标题" class="headerlink" title="第二个一级标题"></a>第二个一级标题</h1><p><u>待下划线文本</u><br>创建脚注格式类似这样 [^RUNOOB]  </p>
+<p>[^RUNOOB]:菜鸟教程 – 学的不仅是技术，更是梦想！！  </p>
+<ul>
+<li>第一项  </li>
+<li>第二项  </li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+</ul>
+<ul>
+<li>第一项</li>
+</ul>
+<ol>
+<li><p>第一项</p>
+</li>
+<li><p>第二项</p>
+</li>
+<li><p>第三项</p>
+</li>
+<li><p>第一项：</p>
+<ul>
+<li>第一项嵌套的第一个元素</li>
+<li>第一项嵌套的第二个元素</li>
+</ul>
+</li>
+<li><p>第二项：</p>
+<ul>
+<li>第二项嵌套的第一个元素</li>
+<li>第二项嵌套的第二个元素</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>区块引用<br>菜鸟教程<br>学的不仅是技术，更是梦想</p>
+</blockquote>
+<blockquote>
+<p>最外层</p>
+<blockquote>
+<p>第一层嵌套</p>
+<blockquote>
+<p>第二层嵌套</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>区块中使用列表</p>
+<blockquote>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+</ol>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+</blockquote>
+<p>列表中使用区块  </p>
+<ul>
+<li><p>第一项  </p>
+<blockquote>
+<p>菜鸟教程<br>学的不仅是技术更是梦想  </p>
+</blockquote>
+</li>
+<li><p>第二项   </p>
+<h1 id="第三个一级标题"><a href="#第三个一级标题" class="headerlink" title="第三个一级标题"></a>第三个一级标题</h1><p>代码<br><code>printf()</code>     </p>
+<p>  &lt;?php<br>  echo ‘RUNOOB’;<br>  function text(){</p>
+<pre><code>  echo &#39;test&#39;</code></pre>
+<p>  }   </p>
+</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">$(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;  </span><br><span class="line">    alert(<span class="string">&#x27;RUNOOB&#x27;</span>);  </span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<p>链接地址<br>这是一个链接地址 <a href="https://www.runoob.com/">菜鸟教程</a>  </p>
+<p>直接使用链接地址 <a href="https://www.baidu.com/">https://www.baidu.com</a></p>
+<p>高级链接<br>这个链接用 1 作为网址变量 [google][1]<br>这个链接用 runoob 作为网址变量 [Runoob][runoob]<br>然后在文档的结尾为变量赋值 (网址)<br>[1]: http//<a href="http://www.google.com/">www.google.com/</a><br>[runoob]: <a href="http://www.runoob.com/">http://www.runoob.com/</a>  </p>
+<p><img src="http://static.runoob.com/images/runoob-logo.png" alt="RUNOOB 图标"></p>
+<p><img src="http://static.runoob.com/images/runoob-logo.png" alt="RUNOOB 图标" title="RUNOOB"></p>
+<img src="http://static.runoob.com/images/runoob-logo.png" width="50%">  
+
+
+<table>
+<thead>
+<tr>
+<th align="left">左对齐</th>
+<th align="right">右对齐</th>
+<th align="center">居中对齐</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+<tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+</tbody></table>
+<p>不在Markdown覆盖范围之内的标签，都可以在文档里面用html编写<br>使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">graph LR</span><br><span class="line">A[方形] --&gt;B(圆角)</span><br><span class="line">    B --&gt; C&#123;条件a&#125;</span><br><span class="line">    C --&gt;|a&#x3D;1| D[结果1]</span><br><span class="line">    C --&gt;|a&#x3D;2| E[结果2]</span><br><span class="line">    F[横向流程图]</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://www.runoob.com/markdown/md-advance.html">查看更多Markdown技巧</a></p>
+]]></content>
       <categories>
-          
-          <category> 编程 </category>
-          
+        <category>编程</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2020/08/13/hello-world/"/>
-      <url>/2020/08/13/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/08/13/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
 </search>
